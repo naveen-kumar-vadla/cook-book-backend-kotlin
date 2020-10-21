@@ -19,7 +19,7 @@
       "Bring apples to boiling; reduce heat. Simmer until apples are soft about 10 to 12 minutes.",
       "Hand-blend or mash apples to desired consistency. Serve warm or cold."
     ],
-    "id": 1602756324960,
+    "recipeId": 1602756324960,
     "userId": 1602818172244
   },
   {
@@ -27,7 +27,7 @@
     "imageUrl": "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/LoadedChiliCheeseFries-catalog.jpg?itok=niLleZCv",
     "category": "Snacks",
     "serves": "6",
-    "prep-time": "",
+    "prepTime": "",
     "cookTime": "",
     "totalTime": "40",
     "ingredients": [
@@ -47,7 +47,7 @@
       "Transfer cheese fries to a serving vessel. Top with chili and remaining toppings.",
       "Garnish with limes and enjoy!"
     ],
-    "id": 3205512649920,
+    "recipeId": 3205512649920,
     "userId": 1702818172244
   },
   {
@@ -56,7 +56,7 @@
     "category": "Salad",
     "serves": "6",
     "cookTime": "",
-    "prep-time": "",
+    "prepTime": "",
     "totalTime": "40",
     "ingredients": [
       "2 sweet potatoes (350g each)",
@@ -91,7 +91,7 @@
       "Toss well, spread out on a serving platter, then scoop out and dot over the avocado flesh.",
       "Bash the reserved pomegranate half with a wooden spoon so the seeds come tumbling out and scatter these over the platter along with the nuts, snip the cress on top, then serve with the feta crumbled over the top."
     ],
-    "id": 4808268974880,
+    "recipeId": 4808268974880,
     "userId": 1602818172244
   },
   {
@@ -99,7 +99,7 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Singapore%20noodle%20chicken%20lettuce%20cups_2169.jpg?itok=Jl5iYMKz",
     "category": "Sauces",
     "serves": "4",
-    "prep-time": "15 minutes",
+    "prepTime": "15 minutes",
     "cookTime": "20",
     "totalTime": "35",
     "ingredients": [
@@ -119,7 +119,7 @@
       "Heat oil in a non-stick frying pan over medium heat. Add carrot, celery and capsicum. Cook for 4 minutes or until soft. Add chicken, Passage to Asia Singapore Noodles Stir-fry Sauce, ½ cup water and ¾ green onions. Bring to the boil. Cook for 2 minutes. Add noodles and toss until well combined.",
       "Trim lettuce leaves with scissors and place onto a large platter. Spoon noodle mixture into leaves. Sprinkle with remaining green onions and fried shallots and serve."
     ],
-    "id": 6411025299840,
+    "recipeId": 6411025299840,
     "userId": 1802818172244
   },
   {
@@ -127,7 +127,7 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Huevos-Rancheros_2709.jpg?itok=efkmy8zT",
     "category": "Brunch",
     "serves": "4",
-    "prep-time": "15",
+    "prepTime": "15",
     "cookTime": "30-35",
     "totalTime": "45-50",
     "ingredients": [
@@ -152,7 +152,7 @@
       "Spoon the mixture into four 1 cup-capacity ovenproof dishes. Make an indentation into each bean mixture, and crack an egg into each.",
       "Bake for 15-18 minutes or until the egg is cooked to your liking. Serve with coriander, avocado, sour cream, lime and tortillas."
     ],
-    "id": 8013781624800,
+    "recipeId": 8013781624800,
     "userId": 1902818172244
   },
   {
@@ -160,7 +160,7 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/cauliflower%20steaks%20with%20herbed%20scramble%202946.jpg?itok=ZNqW_rLh",
     "category": "Vegetarian",
     "serves": "4",
-    "prep-time": "5",
+    "prepTime": "5",
     "cookTime": "10",
     "totalTime": "15",
     "ingredients": [
@@ -181,7 +181,7 @@
       "Melt butter in a large non-stick fry pan over a medium heat. Once melted, add the egg mixture and stir gently with a wooden spoon for 2-3 minutes or until the eggs are just set. Stir in herbs. Remove the pan from the heat. Season with salt and pepper.",
       "Serve cauliflower steaks with herbed scramble and spinach. Scatter with extra herbs, green onion and lemon wedges. Serve with steamed brown rice and tomato salad, if you like."
     ],
-    "id": 9616537949760,
+    "recipeId": 9616537949760,
     "userId": 2002818172244
   },
   {
@@ -189,7 +189,7 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
     "category": "Drinks",
     "serves": "2-3",
-    "prep-time": "10",
+    "prepTime": "10",
     "cookTime": "",
     "totalTime": "10",
     "ingredients": [
@@ -202,7 +202,7 @@
     "instructions": [
       "Place banana, avocado, ice, coconut water and honey in a blender and blend on high speed until smooth. Pour into glasses to serve."
     ],
-    "id": 11219294274720,
+    "recipeId": 11219294274720,
     "userId": 2002818172244
   },
   {
@@ -210,7 +210,7 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
     "category": "Drinks",
     "serves": "2-3",
-    "prep-time": "10",
+    "prepTime": "10",
     "cookTime": "",
     "totalTime": "10",
     "ingredients": [
@@ -226,7 +226,7 @@
     "instructions": [
       "Place banana, avocado, coconut water, honey, mango, pineapple and coconut milk in a blender and blend on high speed until smooth. Pour into glasses and serve topped with mango wedges and coconut if you like"
     ],
-    "id": 12822050599680,
+    "recipeId": 12822050599680,
     "userId": 1902818172244
   },
   {
@@ -234,7 +234,7 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
     "category": "Drinks",
     "serves": "2-3",
-    "prep-time": "10",
+    "prepTime": "10",
     "cookTime": "",
     "totalTime": "10",
     "ingredients": [
@@ -248,7 +248,7 @@
     "instructions": [
       "Place banana, avocado, coconut water, honey, raspberries and yoghurt in a blender and blend on high speed until smooth. Pour into glasses and top with extra yoghurt to serve"
     ],
-    "id": 14424806924640,
+    "recipeId": 14424806924640,
     "userId": 1902818172244
   },
   {
@@ -256,9 +256,9 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Pad-Thai_10018.jpg?itok=DC2HXQUy",
     "category": "Chicken",
     "serves": "4",
-    "prep-time": "20",
-    "cook-time": "20",
-    "total-time": "40",
+    "prepTime": "20",
+    "cookTime": "20",
+    "totalTime": "40",
     "ingredients": [
       "375g pad Thai noodles",
       "2 tbs vegetable oil",
@@ -276,7 +276,7 @@
       "Heat 1 tbs oil in a hot wok. Add prawns and cook for 3 minutes or until just cooked. Transfer to a bowl. Add chicken and cook for 5 minutes or until browned and cook through. Transfer to bowl with prawns",
       "Heat remaining oil. Add egg and cook for 1 minute or until just set. Add onion and stir until combined. Return chicken, prawns and noodles to wok with Passage to Asia Pad Thai Stir-fry Sauce. Toss until well combined and heated through. Remove from heat and stir in bean sprouts. Spoon into serving bowls and top with chilli and basil"
     ],
-    "id": 1602756323960,
+    "recipeId": 1602756323960,
     "userId": 1602818172244
   },
   {
@@ -284,9 +284,9 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/One%20pan%20coconut%20Chettinad%20prawns%202586.jpg?itok=RRTuceRX",
     "category": "Sea-Food",
     "serves": "4",
-    "prep-time": "10",
-    "cook-time": "20",
-    "total-time": "30",
+    "prepTime": "10",
+    "cookTime": "20",
+    "totalTime": "30",
     "ingredients": [
       "450g peeled, deveined green king prawns",
       "225g pkt Street Kitchen Coconut Chicken Chettinad Kit",
@@ -305,7 +305,7 @@
       "Return prawns and chilli to the pan, gently stir to combine. Cover and cook for a further 2 minutes or until the rice and prawns are cooked",
       "Serve the prawns and rice, scattered with remaining chilli, coriander and lime wedges."
     ],
-    "id": 1602756224960,
+    "recipeId": 1602756224960,
     "userId": 1602818172244
   },
   {
@@ -313,9 +313,9 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Chicken%20fried%20rice%202560_0.jpg?itok=kVwsKTAp",
     "category": "Rice",
     "serves": "4",
-    "prep-time": "15",
-    "cook-time": "15",
-    "total-time": "30",
+    "prepTime": "15",
+    "cookTime": "15",
+    "totalTime": "30",
     "ingredients": [
       "2 tablespoons peanut oil",
       "4 eggs, lightly beaten",
@@ -337,7 +337,7 @@
       "Mix together half the kecap manis, rice wine and sesame oil and add to the wok, tossing gently until well combined. Fold through half the sliced omelette.",
       "To serve, divide the rice between bowls and top with remaining sliced omelette, remaining shallots and scatter of sesame seeds. Drizzle with remaining kecap manis."
     ],
-    "id": 1602956324960,
+    "recipeId": 1602956324960,
     "userId": 1602818172244
   },
   {
@@ -345,9 +345,9 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Tea-eggs_3326.jpg?itok=C8Z1unmk",
     "category": "Noodles",
     "serves": "4",
-    "prep-time": "15 (plus 120min for cooling)",
-    "cook-time": "20",
-    "total-time": "35 (plus 120min for cooling)",
+    "prepTime": "15 (plus 120min for cooling)",
+    "cookTime": "20",
+    "totalTime": "35 (plus 120min for cooling)",
     "ingredients": [
       "1 tablespoon Chinese five spice",
       "1 cup (250ml) dark soy",
@@ -373,7 +373,7 @@
       "Heat oil in a large wok or frying pan. Add broccolini and cook for 3 minutes, then add mushrooms. Cook for another 3 minutes. Add ginger and reserved cooking liquid and cook for 1 minute.",
       "To serve, peel the eggs and halve some of them. Divide noodles and vegetables between bowls. Drizzle with cooking liquid. Top with eggs, scatter with green onions, chilli and shiso."
     ],
-    "id": 1602756324860,
+    "recipeId": 1602756324860,
     "userId": 1602818172244
   },
   {
@@ -381,9 +381,9 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Australian%20Eggs%20Persian%20Love%20Cake%202.jpg?itok=3cflzKzI",
     "category": "Cakes",
     "serves": "12",
-    "prep-time": "35",
-    "cook-time": "55 (plus cooling time)",
-    "total-time": "90",
+    "prepTime": "35",
+    "cookTime": "55 (plus cooling time)",
+    "totalTime": "90",
     "ingredients": [
       "2 cups (240g) almond meal",
       "¾ cup (110g) self-raising flour",
@@ -410,7 +410,7 @@
       "Using an electric mixer, beat butter, sugar, vanilla, cinnamon, ginger, cardamom and rosewater in a large bowl until pale and creamy. Add eggs, 1 at a time, beating after each addition. Fold in almond meal mixture until combined",
       "Spoon mixture into prepared pan. Smooth surface. Bake for 50-55 minutes or until a skewer inserted into the centre of the cake comes out clean. Set aside in pan for 10 minutes to cool before turning onto a wire rack to cool completely"
     ],
-    "id": 1602756324969,
+    "recipeId": 1602756324969,
     "userId": 1602818172244
   },
   {
@@ -418,9 +418,9 @@
     "imageUrl": "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Custard-berry-trifle_3150.jpg?itok=iOxdGGpZ",
     "category": "Dessert",
     "serves": "6",
-    "prep-time": "25",
-    "cook-time": "10",
-    "total-time": "35",
+    "prepTime": "25",
+    "cookTime": "10",
+    "totalTime": "35",
     "ingredients": [
       "300ml pure cream",
       "300ml milk",
@@ -445,7 +445,7 @@
       "Layer half the jam roll slices on the base of a 2 litre (8-cup) capacity serving dish, pressing the cut surface of the rolls against the glass. Top with one-third of the custard. Layer three-quarters of the strawberries in the custard, pressing halves against the glass, and scatter with three-quarters of the blueberries. Repeat with another one-third of the custard and remaining jam rolls. Add remaining custard to top of jam rolls.",
       "Top the trifle with dollops of cream. Scatter with raspberries and remaining strawberries and blueberries, pistachios and extra orange zest. Cover and refrigerate until required."
     ],
-    "id": 1602756324963,
+    "recipeId": 1602756324963,
     "userId": 1602818172244
   }
 ]

@@ -18,7 +18,7 @@ class Recipe(
     val serves: String? = null,
     val prepTime: String = "0",
     val cookTime: String = "0",
-    val totalTime: String = "0"
-//    val ingredients: List<String> = listOf(),
-//    val instructions: List<String> = listOf()
+    val totalTime: String = "0",
+    val ingredients: Array<String> = arrayOf(),
+    val instructions: Array<String> = arrayOf()
 )

@@ -3,6 +3,7 @@ package com.cookbook.backend.repositories
 import com.cookbook.backend.model.Recipe
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
+import java.util.*
 
 @Repository
-interface RecipeRepository : CrudRepository<Recipe, Long>
+interface RecipeRepository : CrudRepository<Recipe, Long> {}
