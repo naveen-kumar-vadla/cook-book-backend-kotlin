@@ -21,4 +21,8 @@ class Recipe(
     val totalTime: String = "0",
     val ingredients: Array<String> = arrayOf(),
     val instructions: Array<String> = arrayOf()
-)
+) {
+    override fun toString(): String {
+        return "Recipe(id=$id, userId=$userId, name=$name, imageUrl=$imageUrl, category=$category, serves=$serves, prepTime='$prepTime', cookTime='$cookTime', totalTime='$totalTime', ingredients=${ingredients.contentToString()}, instructions=${instructions.contentToString()})"
+    }
+}

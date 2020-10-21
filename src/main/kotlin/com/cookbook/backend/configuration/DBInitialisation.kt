@@ -1,6 +1,7 @@
 package com.cookbook.backend.configuration
 
 import com.cookbook.backend.repositories.RecipeRepository
+import com.cookbook.backend.repositories.UserRepository
 import org.springframework.boot.ApplicationRunner
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -24,5 +25,14 @@ class DBInitialisation {
         recipeRepository.save(recipe_13)
         recipeRepository.save(recipe_14)
         recipeRepository.save(recipe_15)
+    }
+
+    @Bean
+    fun usersInitializer(userRepository: UserRepository) = ApplicationRunner {
+        userRepository.save(user_1)
+        userRepository.save(user_2)
+        userRepository.save(user_3)
+        userRepository.save(user_4)
+        userRepository.save(user_5)
     }
 }
