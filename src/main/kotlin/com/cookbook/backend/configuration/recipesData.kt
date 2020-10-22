@@ -5,7 +5,7 @@ import com.cookbook.backend.model.Recipe
 val recipe_1 = Recipe(
     userId = 5,
     name = "fresh applesauce",
-    imageUrl = "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/Fresh-applesauce-R.jpg?itok=kS9nGQDG",
+    recipeImageUrl = "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/Fresh-applesauce-R.jpg?itok=kS9nGQDG",
     category = "Breakfast",
     serves = "6",
     prepTime = "15",
@@ -28,7 +28,7 @@ val recipe_1 = Recipe(
 val recipe_2 = Recipe(
     userId = 1,
     name = "loaded chilli cheese fries",
-    imageUrl = "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/LoadedChiliCheeseFries-catalog.jpg?itok=niLleZCv",
+    recipeImageUrl = "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/LoadedChiliCheeseFries-catalog.jpg?itok=niLleZCv",
     category = "Snacks",
     serves = "6",
     prepTime = "",
@@ -55,7 +55,7 @@ val recipe_2 = Recipe(
 
 val recipe_3 = Recipe(
     name = "Singapore Noodle and Chicken Lettuce Cups",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Singapore%20noodle%20chicken%20lettuce%20cups_2169.jpg?itok=Jl5iYMKz",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Singapore%20noodle%20chicken%20lettuce%20cups_2169.jpg?itok=Jl5iYMKz",
     category = "Sauces",
     serves = "4",
     prepTime = "15 minutes",
@@ -99,7 +99,7 @@ val recipe_3 = Recipe(
 
 val recipe_4 = Recipe(
     name = "Superfood salad",
-    imageUrl = "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
+    recipeImageUrl = "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
     category = "Salad",
     serves = "6",
     cookTime = "",
@@ -127,7 +127,7 @@ val recipe_4 = Recipe(
 
 val recipe_5 = Recipe(
     name = "Huevos Rancheros (Mexican baked eggs)",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Huevos-Rancheros_2709.jpg?itok=efkmy8zT",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Huevos-Rancheros_2709.jpg?itok=efkmy8zT",
     category = "Brunch",
     serves = "4",
     prepTime = "15",
@@ -160,7 +160,7 @@ val recipe_5 = Recipe(
 
 val recipe_6 = Recipe(
     name = "Cauliflower Steaks with Herbed Scramble",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/cauliflower%20steaks%20with%20herbed%20scramble%202946.jpg?itok=ZNqW_rLh",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/cauliflower%20steaks%20with%20herbed%20scramble%202946.jpg?itok=ZNqW_rLh",
     category = "Vegetarian",
     serves = "4",
     prepTime = "5",
@@ -189,7 +189,7 @@ val recipe_6 = Recipe(
 
 val recipe_7 = Recipe(
     name = "AAVOCADO BREAKFAST SMOOTHIE",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
     category = "Drinks",
     serves = "2-3",
     prepTime = "10",
@@ -210,7 +210,7 @@ val recipe_7 = Recipe(
 
 val recipe_8 = Recipe(
     name = "TROPICAL BREAKFAST SMOOTHIE",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
     category = "Drinks",
     serves = "2-3",
     prepTime = "10",
@@ -234,7 +234,7 @@ val recipe_8 = Recipe(
 
 val recipe_9 = Recipe(
     name = "RASPBERRY BREAKFAST SMOOTHIE",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/carousel_large/public/recipe_photo/Smoothie-Avo-Group-Portrait.jpg?itok=k7tcqv1G",
     category = "Drinks",
     serves = "2-3",
     prepTime = "10",
@@ -256,7 +256,7 @@ val recipe_9 = Recipe(
 
 val recipe_10 = Recipe(
     name = "Chicken and Prawn Pad Thai",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Pad-Thai_10018.jpg?itok=DC2HXQUy",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Pad-Thai_10018.jpg?itok=DC2HXQUy",
     category = "Chicken",
     serves = "4",
     prepTime = "20",
@@ -284,7 +284,7 @@ val recipe_10 = Recipe(
 
 val recipe_11 = Recipe(
     name = "One-pan Coconut Chettinad Prawn Curry",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/One%20pan%20coconut%20Chettinad%20prawns%202586.jpg?itok=RRTuceRX",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/One%20pan%20coconut%20Chettinad%20prawns%202586.jpg?itok=RRTuceRX",
     category = "Sea-Food",
     serves = "4",
     prepTime = "10",
@@ -313,7 +313,7 @@ val recipe_11 = Recipe(
 
 val recipe_12 = Recipe(
     name = "Chicken Fried Rice with Sliced Egg Omelette",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Chicken%20fried%20rice%202560_0.jpg?itok=kVwsKTAp",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Chicken%20fried%20rice%202560_0.jpg?itok=kVwsKTAp",
     category = "Rice",
     serves = "4",
     prepTime = "15",
@@ -345,7 +345,7 @@ val recipe_12 = Recipe(
 
 val recipe_13 = Recipe(
     name = "Tea eggs with Asian noodles",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Tea-eggs_3326.jpg?itok=C8Z1unmk",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Tea-eggs_3326.jpg?itok=C8Z1unmk",
     category = "Noodles",
     serves = "4",
     prepTime = "15 (plus 120min for cooling)",
@@ -381,7 +381,7 @@ val recipe_13 = Recipe(
 
 val recipe_14 = Recipe(
     name = "Persian Love Cake",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Australian%20Eggs%20Persian%20Love%20Cake%202.jpg?itok=3cflzKzI",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Australian%20Eggs%20Persian%20Love%20Cake%202.jpg?itok=3cflzKzI",
     category = "Cakes",
     serves = "12",
     prepTime = "35",
@@ -418,7 +418,7 @@ val recipe_14 = Recipe(
 
 val recipe_15 = Recipe(
     name = "Easy Custard Berry Trifle",
-    imageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Custard-berry-trifle_3150.jpg?itok=iOxdGGpZ",
+    recipeImageUrl = "https://myfoodbook.com.au/sites/default/files/styles/single_recipe/public/recipe_photo/Custard-berry-trifle_3150.jpg?itok=iOxdGGpZ",
     category = "Dessert",
     serves = "6",
     prepTime = "25",

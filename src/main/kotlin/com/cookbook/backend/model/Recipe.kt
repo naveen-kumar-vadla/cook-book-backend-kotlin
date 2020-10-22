@@ -13,7 +13,7 @@ class Recipe(
     var id: Long? = null,
     val userId: Long? = null,
     val name: String? = null,
-    val imageUrl: String? = null,
+    val recipeImageUrl: String? = null,
     val category: String? = null,
     val serves: String? = null,
     val prepTime: String = "0",
@@ -23,6 +23,6 @@ class Recipe(
     val instructions: Array<String> = arrayOf()
 ) {
     override fun toString(): String {
-        return "Recipe(id=$id, userId=$userId, name=$name, imageUrl=$imageUrl, category=$category, serves=$serves, prepTime='$prepTime', cookTime='$cookTime', totalTime='$totalTime', ingredients=${ingredients.contentToString()}, instructions=${instructions.contentToString()})"
+        return "Recipe(id=$id, userId=$userId, name=$name, recipeImageUrl=$recipeImageUrl, category=$category, serves=$serves, prepTime='$prepTime', cookTime='$cookTime', totalTime='$totalTime', ingredients=${ingredients.contentToString()}, instructions=${instructions.contentToString()})"
     }
 }
