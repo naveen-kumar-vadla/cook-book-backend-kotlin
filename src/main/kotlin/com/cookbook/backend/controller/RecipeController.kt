@@ -1,6 +1,5 @@
 package com.cookbook.backend.controller
 
-import com.cookbook.backend.model.Recipe
 import com.cookbook.backend.repositories.RecipeRepository
 import com.cookbook.backend.repositories.RecipeWithUser
 import org.springframework.beans.factory.annotation.Autowired
@@ -17,12 +16,13 @@ class RecipeController {
     private val recipeRepository: RecipeRepository? = null
 
     @GetMapping("/")
-    fun serveRecipes(): MutableIterable<Recipe>? {
-        return recipeRepository?.findAll()
+    fun serveRecipes(): List<RecipeWithUser>? {
+        return recipeRepository?.findAllWithUserInfo()
     }
 
     @GetMapping("/recipe/{id}")
     fun serveRecipe(@PathVariable id: Long): RecipeWithUser? {
-        return recipeRepository?.findByIdWithUserInfo(id)
+        val recipes: List<RecipeWithUser>? = recipeRepository?.findAllWithUserInfo();
+        return recipes?.find { it -> it.recipe.recipeId == id }
     }
 }
