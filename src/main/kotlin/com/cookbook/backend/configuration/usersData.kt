@@ -26,5 +26,5 @@ val user_5 = User(
     username = "naveen-kumar-vadla",
     name = "Naveen Kumar. V",
     profileImageUrl = "https://avatars3.githubusercontent.com/u/58026402?v=4",
-    collection = arrayOf(2, 6, 7, 8, 9, 1)
+    collection = arrayOf(4, 6, 8, 10, 12, 14)
 )
