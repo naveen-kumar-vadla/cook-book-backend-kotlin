@@ -10,6 +10,7 @@ class Recipe(
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "recipe_id", nullable = false, insertable = false, updatable = false)
     var recipeId: Long? = null,
     val userId: Long? = null,
     val name: String? = null,
