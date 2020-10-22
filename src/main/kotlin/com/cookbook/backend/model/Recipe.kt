@@ -10,7 +10,7 @@ class Recipe(
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Long? = null,
+    var recipeId: Long? = null,
     val userId: Long? = null,
     val name: String? = null,
     val recipeImageUrl: String? = null,
@@ -23,6 +23,6 @@ class Recipe(
     val instructions: Array<String> = arrayOf()
 ) {
     override fun toString(): String {
-        return "Recipe(id=$id, userId=$userId, name=$name, recipeImageUrl=$recipeImageUrl, category=$category, serves=$serves, prepTime='$prepTime', cookTime='$cookTime', totalTime='$totalTime', ingredients=${ingredients.contentToString()}, instructions=${instructions.contentToString()})"
+        return "Recipe(recipeId=$recipeId, userId=$userId, name=$name, recipeImageUrl=$recipeImageUrl, category=$category, serves=$serves, prepTime='$prepTime', cookTime='$cookTime', totalTime='$totalTime', ingredients=${ingredients.contentToString()}, instructions=${instructions.contentToString()})"
     }
 }
