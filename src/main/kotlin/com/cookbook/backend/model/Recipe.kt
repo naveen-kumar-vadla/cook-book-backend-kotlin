@@ -1,5 +1,6 @@
 package com.cookbook.backend.model
 
+import com.fasterxml.jackson.annotation.JsonManagedReference
 import javax.persistence.*
 
 
@@ -10,9 +11,8 @@ class Recipe(
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "recipe_id", nullable = false, insertable = false, updatable = false)
-    var recipeId: Long? = null,
-    val userId: Long? = null,
+    var id: Long = 0,
+
     val name: String? = null,
     val recipeImageUrl: String? = null,
     val category: String? = null,
@@ -21,9 +21,10 @@ class Recipe(
     val cookTime: String = "0",
     val totalTime: String = "0",
     val ingredients: Array<String> = arrayOf(),
-    val instructions: Array<String> = arrayOf()
-) {
-    override fun toString(): String {
-        return "Recipe(recipeId=$recipeId, userId=$userId, name=$name, recipeImageUrl=$recipeImageUrl, category=$category, serves=$serves, prepTime='$prepTime', cookTime='$cookTime', totalTime='$totalTime', ingredients=${ingredients.contentToString()}, instructions=${instructions.contentToString()})"
-    }
-}
+    val instructions: Array<String> = arrayOf(),
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @JsonManagedReference
+    val user: User? = null
+)

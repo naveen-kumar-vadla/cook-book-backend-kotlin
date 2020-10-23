@@ -1,6 +1,6 @@
 package com.cookbook.backend.controller
 
-import com.cookbook.backend.repositories.UserProfile
+import com.cookbook.backend.model.User
 import com.cookbook.backend.repositories.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping
@@ -15,10 +15,8 @@ class UserController {
     private val userRepository: UserRepository? = null
 
     @GetMapping("/profile/{username}")
-    fun serveProfile(@PathVariable username: String): UserProfile? {
-        val user = userRepository?.findByUsername(username)
-        val userRecipes = user?.userId?.let { userRepository?.findRecipesByUserId(it) }
-        return user?.let { userRecipes?.let { it1 -> UserProfile(it, it1) } };
+    fun serveProfile(@PathVariable username: String): User? {
+        return userRepository?.findByUsername(username)
     }
 
 }

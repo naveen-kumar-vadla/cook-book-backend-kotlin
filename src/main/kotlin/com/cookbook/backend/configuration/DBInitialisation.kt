@@ -9,7 +9,12 @@ import org.springframework.context.annotation.Configuration
 @Configuration
 class DBInitialisation {
     @Bean
-    fun recipesInitializer(recipeRepository: RecipeRepository) = ApplicationRunner {
+    fun recipesInitializer(recipeRepository: RecipeRepository, userRepository: UserRepository) = ApplicationRunner {
+        userRepository.save(user_1)
+        userRepository.save(user_2)
+        userRepository.save(user_3)
+        userRepository.save(user_4)
+        userRepository.save(user_5)
         recipeRepository.save(recipe_1)
         recipeRepository.save(recipe_2)
         recipeRepository.save(recipe_3)
@@ -25,14 +30,5 @@ class DBInitialisation {
         recipeRepository.save(recipe_13)
         recipeRepository.save(recipe_14)
         recipeRepository.save(recipe_15)
-    }
-
-    @Bean
-    fun usersInitializer(userRepository: UserRepository) = ApplicationRunner {
-        userRepository.save(user_1)
-        userRepository.save(user_2)
-        userRepository.save(user_3)
-        userRepository.save(user_4)
-        userRepository.save(user_5)
     }
 }

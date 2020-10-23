@@ -3,7 +3,7 @@ package com.cookbook.backend.configuration
 import com.cookbook.backend.model.Recipe
 
 val recipe_1 = Recipe(
-    userId = 5,
+    user = user_5,
     name = "fresh applesauce",
     recipeImageUrl = "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/Fresh-applesauce-R.jpg?itok=kS9nGQDG",
     category = "Breakfast",
@@ -26,7 +26,7 @@ val recipe_1 = Recipe(
 )
 
 val recipe_2 = Recipe(
-    userId = 1,
+    user = user_1,
     name = "loaded chilli cheese fries",
     recipeImageUrl = "https://www.shopfamilyfare.com/sites/default/files/styles/recipe_thumbnail_responsive_2x/public/recipes/LoadedChiliCheeseFries-catalog.jpg?itok=niLleZCv",
     category = "Snacks",
@@ -61,7 +61,7 @@ val recipe_3 = Recipe(
     prepTime = "15 minutes",
     cookTime = "20",
     totalTime = "35",
-    userId = 2,
+    user = user_2,
     ingredients = arrayOf(
         "2 sweet potatoes (350g each)",
         "1 pinch of dried chilli flakes",
@@ -105,7 +105,7 @@ val recipe_4 = Recipe(
     cookTime = "",
     prepTime = "",
     totalTime = "40",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "1 iceberg lettuce",
         "375g Singapore noodles",
@@ -133,7 +133,7 @@ val recipe_5 = Recipe(
     prepTime = "15",
     cookTime = "30-35",
     totalTime = "45-50",
-    userId = 3,
+    user = user_3,
     ingredients = arrayOf(
         "2 tablespoons olive oil",
         "1 brown onion, finely chopped",
@@ -166,7 +166,7 @@ val recipe_6 = Recipe(
     prepTime = "5",
     cookTime = "10",
     totalTime = "15",
-    userId = 4,
+    user = user_4,
     ingredients = arrayOf(
         "1 head cauliflower, cut into 1.5cm-thick steaks",
         "Olive oil spray",
@@ -195,7 +195,7 @@ val recipe_7 = Recipe(
     prepTime = "10",
     cookTime = "",
     totalTime = "10",
-    userId = 4,
+    user = user_4,
     ingredients = arrayOf(
         "1 medium banana, chopped",
         "1 avocado",
@@ -216,7 +216,7 @@ val recipe_8 = Recipe(
     prepTime = "10",
     cookTime = "",
     totalTime = "10",
-    userId = 3,
+    user = user_3,
     ingredients = arrayOf(
         "1 medium banana, chopped",
         "1 avocado",
@@ -240,7 +240,7 @@ val recipe_9 = Recipe(
     prepTime = "10",
     cookTime = "",
     totalTime = "10",
-    userId = 3,
+    user = user_3,
     ingredients = arrayOf(
         "1 medium banana, chopped",
         "1 avocado",
@@ -262,7 +262,7 @@ val recipe_10 = Recipe(
     prepTime = "20",
     cookTime = "20",
     totalTime = "40",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "375g pad Thai noodles",
         "2 tbs vegetable oil",
@@ -290,7 +290,7 @@ val recipe_11 = Recipe(
     prepTime = "10",
     cookTime = "20",
     totalTime = "30",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "450g peeled, deveined green king prawns",
         "225g pkt Street Kitchen Coconut Chicken Chettinad Kit",
@@ -319,7 +319,7 @@ val recipe_12 = Recipe(
     prepTime = "15",
     cookTime = "15",
     totalTime = "30",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "2 tablespoons peanut oil",
         "4 eggs, lightly beaten",
@@ -351,7 +351,7 @@ val recipe_13 = Recipe(
     prepTime = "15 (plus 120min for cooling)",
     cookTime = "20",
     totalTime = "35 (plus 120min for cooling)",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "1 tablespoon Chinese five spice",
         "1 cup (250ml) dark soy",
@@ -387,7 +387,7 @@ val recipe_14 = Recipe(
     prepTime = "35",
     cookTime = "55 (plus cooling time)",
     totalTime = "90",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "2 cups (240g) almond meal",
         "¾ cup (110g) self-raising flour",
@@ -424,7 +424,7 @@ val recipe_15 = Recipe(
     prepTime = "25",
     cookTime = "10",
     totalTime = "35",
-    userId = 5,
+    user = user_5,
     ingredients = arrayOf(
         "300ml pure cream",
         "300ml milk",

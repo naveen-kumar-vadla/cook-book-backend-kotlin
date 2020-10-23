@@ -25,6 +25,6 @@ val user_4 = User(
 val user_5 = User(
     username = "naveen-kumar-vadla",
     name = "Naveen Kumar. V",
-    profileImageUrl = "https://avatars3.githubusercontent.com/u/58026402?v=4",
-    collection = arrayOf(4, 6, 8, 10, 12, 14)
+    profileImageUrl = "https://avatars3.githubusercontent.com/u/58026402?v=4"
+//    collection = arrayOf(4, 6, 8, 10, 12, 14)
 )
