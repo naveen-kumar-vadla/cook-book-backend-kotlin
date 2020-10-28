@@ -31,8 +31,12 @@ class Recipe(
     @Column(name = "total_time")
     val totalTime: String = "0",
 
+    @ElementCollection(targetClass = String::class)
+    @OrderColumn
     val ingredients: Array<String> = arrayOf(),
 
+    @ElementCollection(targetClass = String::class)
+    @OrderColumn
     val instructions: Array<String> = arrayOf(),
 
     @OneToOne(fetch = FetchType.LAZY)
