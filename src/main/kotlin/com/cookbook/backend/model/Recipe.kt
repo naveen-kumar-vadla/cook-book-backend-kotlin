@@ -1,5 +1,6 @@
 package com.cookbook.backend.model
 
+import com.fasterxml.jackson.annotation.JsonManagedReference
 import javax.persistence.*
 
 
@@ -32,10 +33,10 @@ class Recipe(
 
     val ingredients: Array<String> = arrayOf(),
 
-    val instructions: Array<String> = arrayOf()
+    val instructions: Array<String> = arrayOf(),
 
-//    @OneToOne(fetch = FetchType.LAZY)
-//    @JoinColumn(name = "user_id", referencedColumnName = "id")
-//    @JsonManagedReference
-//    val user: User? = null
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
+    @JsonManagedReference
+    val user: User? = null
 )
