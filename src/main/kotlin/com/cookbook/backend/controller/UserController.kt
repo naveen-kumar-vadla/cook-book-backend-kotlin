@@ -2,6 +2,8 @@ package com.cookbook.backend.controller
 
 import com.cookbook.backend.model.Recipe
 import com.cookbook.backend.model.User
+import com.cookbook.backend.model.UserCollection
+import com.cookbook.backend.repositories.CollectionRepository
 import com.cookbook.backend.repositories.RecipeRepository
 import com.cookbook.backend.repositories.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
@@ -23,9 +25,17 @@ class UserController {
     @Autowired
     private val recipeRepository: RecipeRepository? = null
 
+    @Autowired
+    private val collectionRepository: CollectionRepository? = null
+
     @GetMapping("/")
     fun serveLoggedUser(): Optional<User>? {
         return userRepository?.findById(5)
+    }
+
+    @GetMapping("/collection/{userId}")
+    fun serveUserCollection(@PathVariable userId: Long): MutableList<UserCollection>? {
+        return collectionRepository?.findAllByUserId(userId)
     }
 
     @GetMapping("/profile/{username}")

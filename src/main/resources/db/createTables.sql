@@ -23,3 +23,17 @@ CREATE TABLE IF NOT EXISTS recipes (
         	  REFERENCES users(id)
         	  ON DELETE SET NULL
 );
+
+CREATE TABLE IF NOT EXISTS collections (
+        id          INT     GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+        user_id     INT,
+        recipe_id   INT,
+        CONSTRAINT fk_uses
+              FOREIGN KEY(user_id)
+        	  REFERENCES users(id)
+        	  ON DELETE SET NULL,
+        CONSTRAINT fk_recipes
+              FOREIGN KEY(recipe_id)
+        	  REFERENCES recipes(id)
+        	  ON DELETE SET NULL
+);
