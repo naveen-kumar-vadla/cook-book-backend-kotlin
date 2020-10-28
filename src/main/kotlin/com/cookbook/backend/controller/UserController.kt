@@ -2,7 +2,6 @@ package com.cookbook.backend.controller
 
 import com.cookbook.backend.model.Recipe
 import com.cookbook.backend.model.User
-import com.cookbook.backend.model.UserCollection
 import com.cookbook.backend.repositories.CollectionRepository
 import com.cookbook.backend.repositories.RecipeRepository
 import com.cookbook.backend.repositories.UserRepository
@@ -13,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 import java.util.*
 
-class UserProfile(val user: User, val recipes: List<Recipe>?)
+class UserProfile(val user: Optional<User>?, val recipes: List<Recipe>?)
 
 @RestController
 @RequestMapping("/api/user")
@@ -34,14 +33,15 @@ class UserController {
     }
 
     @GetMapping("/collection/{userId}")
-    fun serveUserCollection(@PathVariable userId: Long): MutableList<UserCollection>? {
-        return collectionRepository?.findAllByUserId(userId)
+    fun serveUserCollection(@PathVariable userId: Long): List<Recipe?> {
+        val collection = collectionRepository?.findAllByUserId(userId)
+        return collection!!.map { it -> it.recipe }
     }
 
-    @GetMapping("/profile/{username}")
-    fun serveProfile(@PathVariable username: String): UserProfile? {
-        val user = userRepository?.findByUsername(username)
-        val recipes: List<Recipe>? = user?.id?.let { recipeRepository?.findAllByUserId(it) }
-        return user?.let { UserProfile(user = it, recipes = recipes) }
+    @GetMapping("/profile/{userId}")
+    fun serveProfile(@PathVariable userId: Long): UserProfile? {
+        val user = userRepository?.findById(userId)
+        val recipes: List<Recipe>? = recipeRepository?.findAllByUserId(userId)
+        return UserProfile(user = user, recipes = recipes)
     }
 }

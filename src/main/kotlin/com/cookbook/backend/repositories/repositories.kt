@@ -12,9 +12,7 @@ interface RecipeRepository : CrudRepository<Recipe, Long> {
 }
 
 @Repository
-interface UserRepository : CrudRepository<User, Long> {
-    fun findByUsername(username: String): User?
-}
+interface UserRepository : CrudRepository<User, Long>
 
 
 @Repository
