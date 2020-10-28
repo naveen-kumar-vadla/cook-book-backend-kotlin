@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
+import java.util.*
 
 class UserProfile(val user: User, val recipes: List<Recipe>?)
 
@@ -21,6 +22,11 @@ class UserController {
 
     @Autowired
     private val recipeRepository: RecipeRepository? = null
+
+    @GetMapping("/")
+    fun serveLoggedUser(): Optional<User>? {
+        return userRepository?.findById(5)
+    }
 
     @GetMapping("/profile/{username}")
     fun serveProfile(@PathVariable username: String): UserProfile? {
