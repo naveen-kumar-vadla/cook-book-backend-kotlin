@@ -1,4 +1,4 @@
---changeset naveen-01
+--changeset naveen-02
 INSERT INTO users (username,name) values ('chandu','chandramani. N');
 INSERT INTO users (username,name) values ('shailu','shailaja. J');
 INSERT INTO users (username,name) values ('parvathi','prabhavathi. K');

@@ -1,4 +1,4 @@
---changeset naveen-01
+--changeset naveen-04
 INSERT INTO collections
 (user_id,recipe_id) values
 (5,4),
