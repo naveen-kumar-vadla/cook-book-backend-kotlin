@@ -1,12 +1,16 @@
 package com.cookbook.backend.model
 
 import com.fasterxml.jackson.annotation.JsonManagedReference
+import com.vladmihalcea.hibernate.type.array.StringArrayType
+import org.hibernate.annotations.Type
+import org.hibernate.annotations.TypeDef
+import org.hibernate.annotations.TypeDefs
 import javax.persistence.*
 
 
 @Entity
 @Table(name = "recipes")
-
+@TypeDefs(TypeDef(name = "string-array", typeClass = StringArrayType::class))
 class Recipe(
 
     @Id
@@ -34,13 +38,13 @@ class Recipe(
     @Column(name = "total_time")
     val totalTime: String = "0",
 
-    @ElementCollection(targetClass = String::class)
     @OrderColumn
-    val ingredients: Array<String> = arrayOf(),
+    @Type(type = "string-array")
+    val ingredients: Array<String> = arrayOf(""),
 
-    @ElementCollection(targetClass = String::class)
     @OrderColumn
-    val instructions: Array<String> = arrayOf(),
+    @Type(type = "string-array")
+    val instructions: Array<String> = arrayOf(""),
 
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", referencedColumnName = "id")
