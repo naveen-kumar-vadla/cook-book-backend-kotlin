@@ -15,12 +15,15 @@ class Recipe(
 
     val name: String? = null,
 
-    @Column(name = "recipe_image_url")
-    val recipeImageUrl: String? = null,
-
     val category: String? = null,
 
     val serves: String? = null,
+
+    @Column(name = "rating")
+    val rating: Int = 0,
+
+    @Column(name = "recipe_image_url")
+    val recipeImageUrl: String? = null,
 
     @Column(name = "prep_time")
     val prepTime: String = "0",

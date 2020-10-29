@@ -6,4 +6,5 @@
     <include file="insertUsers.sql" relativeToChangelogFile="true"/>
     <include file="insertRecipes.sql" relativeToChangelogFile="true"/>
     <include file="insertCollections.sql" relativeToChangelogFile="true"/>
+    <include file="updateRecipeWithRating.sql" relativeToChangelogFile="true"/>
 </databaseChangeLog>
